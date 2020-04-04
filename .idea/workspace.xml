@@ -16,7 +16,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react01" />
+    <property name="last_opened_file_path" value="M:/尚硅谷前端学科全套视频/7.前端学科--高级框架/尚硅谷React教程/code/react_redux" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -69,7 +69,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573554390487</updated>
-      <workItem from="1573554393114" duration="7121000" />
+      <workItem from="1573554393114" duration="10497000" />
+      <workItem from="1585986160735" duration="120000" />
+      <workItem from="1585986386081" duration="624000" />
+      <workItem from="1585994344774" duration="172000" />
     </task>
     <servers />
   </component>
@@ -81,7 +84,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
