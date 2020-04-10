@@ -22,7 +22,7 @@ export default class Search extends Component{
                 <h3 className="jumbotron-heading">Search Github Users</h3>
                 <div>
                     <input type="text" placeholder="enter the name you search"
-                           ref={input => this.input = input}/>
+                           ref={input => this.input = input}/>&nbsp;
                     <button onClick={this.handleSearch}>Search</button>
                 </div>
             </section>
