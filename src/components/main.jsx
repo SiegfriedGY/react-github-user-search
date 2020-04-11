@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
-import axios from 'axios'
+import axios from 'axios'   // npm install --save axios
 
 export default class Main extends Component{
 
@@ -14,23 +14,23 @@ export default class Main extends Component{
         loading: false,
         users: null,
         error: null
-    }
+    };
 
     // 在这里面，先把状态设置为loading，同时发送异步请求，根据结果的不同，更新为不同的状态。
     componentWillReceiveProps(nextProps) {
-        const {searchName} = nextProps
+        const {searchName} = nextProps;
         this.setState({
             initView: false,
             loading: true
-        })
+        });
         const url = `https://api.github.com/search/users?q=${searchName}`
         //发送ajax请求
         axios.get(url).then(
             response => {
-                const resultList = response.data.items
-                console.log(resultList)
+                const resultList = response.data.items;
+                console.log(resultList);
                 // 注意，小括号表示返回值，里面的大括号表示是一个对象！！
-                const resultUsers = resultList.map((user, index) => ({
+                const resultUsers = resultList.map((user, index) => ({ //这个//表示对象，不是函数体！
                         name: user.login,
                         url: user.html_url,
                         avatarUrl: user.avatar_url

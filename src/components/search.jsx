@@ -5,16 +5,16 @@ export default class Search extends Component{
 
     static propTypes = {
         setSearchName: PropTypes.func.isRequired
-    }
+    };
 
     handleSearch = ()=>{
-        const searchName = this.input.value.trim()
+        const searchName = this.input.value.trim();
         if (searchName) {
             this.props.setSearchName(searchName)
         } else {
             alert("未输入任何关键字！")
         }
-    }
+    };
 
     render() {
         return (
